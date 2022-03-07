@@ -1,0 +1,170 @@
+#title
+{
+    background-color: #FFB72B;
+}
+.navbar
+{
+    padding-bottom: 3rem; 
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-lite', sans-serif;
+
+}
+.input-group
+{
+    padding:5% 0 5% 0;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+}
+
+.big-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    /* line-height: 1.5; */
+    color: white;
+}
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width:1028px) 
+{
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+
+
+.container-fluid
+{
+    padding: 3% 10% 8%;
+}
+
+.download-button
+{
+    /* padding: 5%; */
+    margin: 5% 3% 5% 0;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+.icon-color
+{
+    color:#FFB72B;
+    margin-bottom: 1rem;
+}
+.icon-color:hover
+{
+    color:#FFE61B;
+}
+
+
+
+#download
+{
+    background-color: black;
+    padding: 7% 10%;
+}
+
+.download-text
+{
+    text-align: left;
+
+    color:gray;
+    padding-left: 10%;
+}
+
+.phone
+{
+    width: 60%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+    right: 20%;
+}
+@media (max-width:1028px) 
+{
+    .phone
+    {
+        position: static;
+    }
+    #download
+    {
+        text-align: center;
+    }
+}
+
+
+#advertisement
+{
+    background-color: #FFE61B;
+    padding: 4% 4%;
+    margin-top: 5%;
+}
+
+#today-special
+{
+    background-color: white;
+    padding: 7% 15%;
+
+}
+
+#footer
+{
+    background-color: black;
+    padding: 7% 15%;
+    text-align: center;
+
+
+}
+
+.footer-text
+{
+    color:white;
+    padding: 5%;
+}
+.social-icon
+{
+    margin: 0 5% ;
+    color: white;
+
+}
+.social-icon:hover
+{
+    color:#FFE61B;
+}
+.special-heading
+{
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
